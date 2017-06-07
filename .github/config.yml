@@ -1,7 +1,8 @@
 repository:
-  description: "George's probot plugin"
+  name: george-probot
+  description: Branch manager
+  homepage: https://github.com/pjmorr/george-probot
   has_wiki: false
-
 labels:
   - name: stale
     color: ffffff
