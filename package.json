@@ -1,0 +1,34 @@
+{
+  "name": "george",
+  "version": "1.0.0",
+  "description": "Branch manager",
+  "author": "phil@uberops.com",
+  "license": "ISC",
+  "repository": "https://github.com/pjmorr/probot.git",
+  "scripts": {
+    "start": "probot run ./index.js",
+    "test": "mocha && xo --extend probot"
+  },
+  "dependencies": {
+    "probot": "~0.5.0",
+    "probot-autoresponder": "probot/autoresponder",
+    "probot-configurer": "probot/configurer"
+  },
+  "devDependencies": {
+    "eslint-config-probot": ">=0.1.0",
+    "expect": "^1.20.2",
+    "localtunnel": "^1.8.2",
+    "mocha": "^3.2.0",
+    "xo": "^0.18.0"
+  },
+  "probot": {
+   "plugins": [
+     "probot-autoresponder",
+     "probot-configurer"
+   ]
+  },
+  "engines": {
+    "node": ">= 7.7.0",
+    "npm": ">= 4.0.0"
+  }
+}
