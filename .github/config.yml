@@ -1,0 +1,9 @@
+repository:
+  description: "George's probot plugin"
+  has_wiki: false
+
+labels:
+  - name: stale
+    color: ffffff
+  - name: question
+    color: cc317c

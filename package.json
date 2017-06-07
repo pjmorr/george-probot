@@ -12,7 +12,8 @@
   "dependencies": {
     "probot": "~0.5.0",
     "probot-autoresponder": "probot/autoresponder",
-    "probot-configurer": "probot/configurer"
+    "probot-configurer": "probot/configurer",
+    "probot-stale": "probot/stale"
   },
   "devDependencies": {
     "eslint-config-probot": ">=0.1.0",
@@ -22,10 +23,11 @@
     "xo": "^0.18.0"
   },
   "probot": {
-   "plugins": [
-     "probot-autoresponder",
-     "probot-configurer"
-   ]
+    "plugins": [
+      "probot-autoresponder",
+      "probot-configurer",
+      "probot-stale"
+    ]
   },
   "engines": {
     "node": ">= 7.7.0",
